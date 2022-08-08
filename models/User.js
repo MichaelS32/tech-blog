@@ -15,6 +15,7 @@ User.init(
             type: DataTypes.INTEGER,
             primaryKey: true,
             autoIncrement: true,
+            allowNull: false
         },
         username: {
             type: DataTypes.STRING,
@@ -24,7 +25,7 @@ User.init(
         password: {
             type: DataTypes.STRING,
             allowNull: false,
-            validat: {
+            validate: {
                 len: [6]
             }
         }
