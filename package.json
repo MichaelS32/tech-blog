@@ -4,12 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "dev": "react-scripts start",
-    "start": "serve -s build",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "heroku-postbuild": "npm run build",
+    "start": "node server.js",
     "seed": "node seeds/index.js"
   },
   "repository": {
@@ -21,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/MichaelS32/tech-blog/issues"
   },
-  "homepage": "https://github.com/MichaelS32/tech-blog#readme",
+  "homepage": "https://frozen-shore-13337.herokuapp.com/",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "connect-session-sequelize": "^7.1.4",
